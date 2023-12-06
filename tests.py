@@ -3,11 +3,6 @@ from cracking_secrets import *
 import unittest
 import string
 
-# Tests for all the different classes in the project
-
-# To run the tests, you will need to first install pytest by running
-# `pip install pytest`` and then from the root folder run `pytest tests.py`
-
 
 class TestPlugLeads(unittest.TestCase):
     def test_less_than_two_letters_added(self):
