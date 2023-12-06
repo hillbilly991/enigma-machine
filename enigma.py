@@ -7,7 +7,7 @@ class Plugboard:
     Represents a plugboard in the enigma machine
 
     The plugboard houses plug leads and this class is used to both encode a character
-    through the plug leads. It is also used tovalidate whether all the characters within
+    through the plug leads. It is also used to validate whether all the characters within
     the plug leads are unique and, also, limits the number of plug leads allowed in the
     enigma machine
     """
